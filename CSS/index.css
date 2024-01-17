@@ -1,0 +1,62 @@
+/*HEAD SECTION*/
+
+.head-text {
+  margin-top: 160px;
+  font-size: 100px;
+  text-align: center;
+}
+
+
+.background-image {
+  width: 100%;
+}
+
+h1 {
+  color: white;
+  font-size: 90px;
+  font-family: 'Permanent Marker', cursive;
+  text-shadow: 10px 5px 2px rgba(0, 0, 0, 0.3);
+}
+
+header {
+  background-image: url('/Image_Files/pexels-kelly-4320439.jpg');
+}
+
+
+/*Main section*/
+
+section {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.image-1,
+.image-3  {
+  height: 300px;
+  float: right;
+  padding: 50px 30px 50px 30px;
+}
+
+.para-1,
+.para-3 {
+  display: flex;
+  width: 100%;
+  text-align: justify;
+  padding: 30px;
+}
+
+.image-2 {
+  height: 300px;
+  float: left;
+  padding: 50px 30px 50px 30px;
+}
+
+.para-2 {
+  display: flex;
+  width: 100%;
+  text-align: justify;
+  padding: 30px;
+}
